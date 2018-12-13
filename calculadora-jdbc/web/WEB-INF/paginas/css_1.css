@@ -1,0 +1,53 @@
+html {
+	background: rgba(239, 242, 245, 0.133);
+	font-family: Cambria, cursive;
+}
+body {
+	width: 500px;
+	margin: 0 auto;
+}
+h1 {
+	transition: 1s;
+	background-color: aqua;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 70px;
+	text-shadow: 2px 2px 5px rgb(189, 115, 18);
+}
+h1:hover{
+	transition: 1s;
+	font-size: 90px;
+	text-shadow: 5px 6px 9px rgb(189, 115, 18);
+	background-position-y: 30px;
+}
+.caixa-numero{
+	margin: 10px;
+}
+label {
+	font-size: 18px;
+}
+.resultado{
+	font-size: 24px;
+	box-shadow: 2px 2px 5px rgb(189, 115, 18);
+	
+}
+button{
+	transition: 0.5s;
+	font-family: "Arial black", cursive;
+	font-size: 12px;
+	border-radius: 2px; 
+	background: #3a07c7;
+	background-color: aqua;
+	border-radius: 2mm;
+	padding: 7px;
+	box-shadow: 2px 2px 5px rgb(189, 115, 18);
+}
+button:hover{
+	transition: 0.5s;
+	font-size: 18px;
+	color: aliceblue;
+}
+#n1, #n2{
+	padding: 10px;
+	border-radius: 4px;
+}
